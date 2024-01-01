@@ -6,13 +6,14 @@ Content Based Recommender System recommends movies similar to the movie user lik
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API.
 
 I use web scraping to get the reviews given by the user in the IMDB site using beautifulsoup4 and performed sentiment analysis on those reviews.
+
 ## Features
 
-- **Machine Learning Forecasting:** Utilizes advanced machine learning models to predict future sales trends.
+- **Content-Based Filtering:** Utilizes content-based filtering techniques to recommend content based on the user's past interactions and content features.
+- **Personalized Recommendations:** Delivers tailored movie and TV show suggestions by considering the user's historical preferences.
+- **User-Friendly Interface:** Incorporates a simple and intuitive interface for users to explore and discover new content.
+- **Scalable Architecture:** Designed to scale efficiently with a growing user base and content library.
 
-- **Interactive Dashboard:** Presents sales forecasts through an interactive and user-friendly dashboard.
-
-- **Customizable Parameters:** Allows users to adjust parameters and scenarios for forecasting.
 # Demo
 
 ![Screenshot (63)](https://github.com/miteshgupta07/Netflix-Recommendation-System/assets/111682782/a4f7bda0-297e-4de7-bae4-94d4658ae06d)
@@ -63,9 +64,8 @@ I use web scraping to get the reviews given by the user in the IMDB site using b
     
 ## Acknowledgements
 
-
-- **Kaggle:** Thanks to Kaggle for providing historical IPL match data.
-
+- **The Movie Database (TMDb):** Gratitude to TMDb for providing a rich source of movie and TV show metadata, enhancing the content-based recommendation system.
+- 
 - **Scikit-learn:** Gratitude to the Scikit-learn community for creating a powerful machine learning library.
 ## Contact
 Email : mgmiteshgupta134@gmail.com
