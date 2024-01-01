@@ -10,6 +10,7 @@ I use web scraping to get the reviews given by the user in the IMDB site using b
 ## Features
 
 - **Content-Based Filtering:** Utilizes content-based filtering techniques to recommend content based on the user's past interactions and content features.
+  
 - **Personalized Recommendations:** Delivers tailored movie and TV show suggestions by considering the user's historical preferences.
 - **User-Friendly Interface:** Incorporates a simple and intuitive interface for users to explore and discover new content.
 - **Scalable Architecture:** Designed to scale efficiently with a growing user base and content library.
