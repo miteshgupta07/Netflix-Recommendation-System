@@ -1,3 +1,4 @@
+# Required Libraries
 import numpy as np
 import pandas as pd
 from flask import Flask, render_template, request
@@ -10,12 +11,9 @@ import pickle
 import requests
 import json
 
-# File path
-path="E:\\Data Science\\Project\\Netflix Recommendation System\\Model\\"
-
 # Load the nlp model and tfidf vectorizer from disk
-nlp_model = pickle.load(open(path+"nlp_model.pkl", 'rb'))
-vectorizer = pickle.load(open(path+"transform.pkl", 'rb'))
+nlp_model = pickle.load(open("nlp_model.pkl", 'rb'))
+vectorizer = pickle.load(open("transform.pkl", 'rb'))
 
 def create_similarity():
     data = pd.read_csv('Netflix Recommendation System\\Processed Datasets\\main_data.csv')
