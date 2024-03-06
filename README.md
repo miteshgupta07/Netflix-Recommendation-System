@@ -66,8 +66,20 @@ I use web scraping to get the reviews given by the user in the IMDB site using b
 ## Acknowledgements
 
 - **The Movie Database (TMDb):** Gratitude to TMDb for providing a rich source of movie and TV show metadata, enhancing the content-based recommendation system.
-- 
+
 - **Scikit-learn:** Gratitude to the Scikit-learn community for creating a powerful machine learning library.
+- **Pandas:** Essential for data manipulation and analysis, providing versatile data structures crucial for handling structured data.
+
+- **NumPy:** A fundamental library for scientific computing, enabling efficient operations on large, multi-dimensional arrays and matrices.
+
+- **Matplotlib:** Integral for creating static, animated, and interactive visualizations, making it a cornerstone for data visualization.
+
+- **tmdbsimple (TMDb v3 API):** Simplifies interactions with the TMDb v3 API, facilitating seamless integration of movie-related data into applications.
+
+- **NLTK (Natural Language Toolkit):** Essential for natural language processing tasks, providing easy-to-use interfaces for various language-related operations.
+
+- **Flask:** A lightweight web application framework used for developing web applications and APIs, simplifying HTTP request handling and template rendering.
+
 ## Contact
 Email : mgmiteshgupta134@gmail.com
 
