@@ -81,7 +81,7 @@ I use web scraping to get the reviews given by the user in the IMDB site using b
 - **Flask:** A lightweight web application framework used for developing web applications and APIs, simplifying HTTP request handling and template rendering.
 
 ## Contact
-Email : mgmiteshgupta134@gmail.com
+Email : miteshgupta2711@gmail.com
 
 Linkedin : https://www.linkedin.com/in/mitesh-gupta/
 
